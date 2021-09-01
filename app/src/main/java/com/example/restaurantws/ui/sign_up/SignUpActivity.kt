@@ -1,13 +1,12 @@
 package com.example.restaurantws.ui.sign_up
 
 import android.content.SharedPreferences
-import androidx.lifecycle.Observer
 import android.os.Bundle
 import android.view.inputmethod.EditorInfo
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
+import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
-import com.example.restaurantws.R
 import com.example.restaurantws.core.Resource
 import com.example.restaurantws.data.auth.models.LoginRequest
 import com.example.restaurantws.data.auth.models.User
@@ -27,6 +26,8 @@ class SignUpActivity : AppCompatActivity() {
     private val signUpViewModel: SignUpViewModel by viewModel()
     private val loginViewModel: LoginViewModel by viewModel()
     private lateinit var binding: ActivitySignUpBinding
+
+    private val prefs: SharedPreferences by inject()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -155,6 +156,7 @@ class SignUpActivity : AppCompatActivity() {
                         toast(it.error?.message)
                     }
                     is Resource.Success -> {
+                        saveUserCredentials()
                         goToActivity<SpecialityActivity>()
                         finish()
                     }
@@ -163,6 +165,14 @@ class SignUpActivity : AppCompatActivity() {
                 }
             }
 
+        }
+    }
+
+    private fun saveUserCredentials() {
+        with(prefs.edit())
+        {
+            putBoolean(getString(com.example.restaurantws.R.string.is_saved_current_user), true)
+            commit()
         }
     }
 
