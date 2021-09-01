@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/categoryName"
+        android:id="@+id/pedidoTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -19,23 +19,25 @@
         tools:text="Pedido #1" />
 
     <TextView
-        android:id="@+id/categoryDesc"
+        android:id="@+id/pedidoDesc"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="@+id/categoryName"
-        app:layout_constraintTop_toBottomOf="@+id/categoryName"
+        app:layout_constraintStart_toStartOf="@+id/pedidoTitle"
+        app:layout_constraintTop_toBottomOf="@+id/pedidoTitle"
         tools:text="Realizado el 20/01/2020 por Juan" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/pedidoPrice"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:textColor="@color/primaryVariantColor"
-        app:layout_constraintEnd_toEndOf="@+id/categoryDesc"
-        app:layout_constraintStart_toStartOf="@+id/categoryDesc"
-        app:layout_constraintTop_toBottomOf="@+id/categoryDesc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pedidoDesc"
+        app:layout_constraintStart_toStartOf="@+id/pedidoDesc"
+        app:layout_constraintTop_toBottomOf="@+id/pedidoDesc"
         tools:text="Total: 300" />
 
     <ImageView
@@ -45,8 +47,8 @@
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/primaryColor"
         android:tint="@color/primaryColor"
-        app:layout_constraintBottom_toBottomOf="@+id/categoryName"
+        app:layout_constraintBottom_toBottomOf="@+id/pedidoTitle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/categoryName"
+        app:layout_constraintTop_toTopOf="@+id/pedidoTitle"
         app:srcCompat="@drawable/ic_baseline_send_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

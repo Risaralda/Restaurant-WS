@@ -60,6 +60,11 @@ class MainActivity : AppCompatActivity() {
                 finish()
                 true
             }
+            R.id.pedidos -> {
+                val navController = findNavController(R.id.nav_host_fragment_content_main)
+//            navController.navigate(MainAc)
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }

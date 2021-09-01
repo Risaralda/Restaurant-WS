@@ -23,4 +23,8 @@
             android:name="category"
             app:argType="com.example.restaurantws.data.main.models.categorias.Category" />
     </fragment>
+    <fragment
+        android:id="@+id/pedidosFragment"
+        android:name="com.example.restaurantws.ui.pedidos.PedidosFragment"
+        android:label="PedidosFragment" /><action android:id="@+id/action_global_pedidosFragment" app:destination="@id/pedidosFragment"/>
 </navigation>

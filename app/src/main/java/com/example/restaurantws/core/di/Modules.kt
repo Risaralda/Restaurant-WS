@@ -7,6 +7,7 @@ import com.example.restaurantws.data.auth.AuthRepository
 import com.example.restaurantws.data.main.MainRepository
 import com.example.restaurantws.ui.categories.CategoriesViewModel
 import com.example.restaurantws.ui.login.LoginViewModel
+import com.example.restaurantws.ui.pedidos.PedidosViewModel
 import com.example.restaurantws.ui.products.ProductsViewModel
 import com.example.restaurantws.ui.sign_up.SignUpViewModel
 import com.example.restaurantws.ui.speciality.SpecialityViewModel
@@ -53,6 +54,9 @@ val mainModule = module {
     }
     viewModel {
         ProductsViewModel(get())
+    }
+ viewModel {
+     PedidosViewModel(get())
     }
 
 }

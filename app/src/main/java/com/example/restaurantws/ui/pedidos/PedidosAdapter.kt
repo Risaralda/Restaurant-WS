@@ -3,42 +3,33 @@ package com.example.restaurantws.ui.pedidos
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import com.example.restaurantws.data.main.models.products.Product
-import com.example.restaurantws.databinding.ItemProductsBinding
-import com.example.restaurantws.utils.loadDrawable
+import com.example.restaurantws.core.CurrentUser
+import com.example.restaurantws.data.main.models.pedidos.Pedido
+import com.example.restaurantws.databinding.ItemPedidosBinding
 
-class PedidosAdapter(private var items: MutableList<Product>) :
+class PedidosAdapter(private var items: List<Pedido>) :
     RecyclerView.Adapter<PedidosAdapter.ViewHolder>() {
 
-    inner class ViewHolder(private val binding: ItemProductsBinding) :
+    inner class ViewHolder(private val binding: ItemPedidosBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(product: Product) = with(binding)
+        fun bind(pedido: Pedido) = with(binding)
         {
-            productName.text = product.nombre
-            productDesc.text = product.descripcion
-            "$ ${product.precio}".also { productPrice.text = it }
+            "Pedido # ${pedido.id}".also { pedidoTitle.text = it }
 
-
-            productQuantity.apply {
-                isVisible = product.quantity > 0
-                text = product.quantity.toString()
+            "Pedido realizado el ${pedido.created_at} por ${CurrentUser.nombre}".also {
+                pedidoDesc.text = it
+            }
+            "Total: ${pedido.total}".also {
+                pedidoPrice.text = it
             }
 
-            imgRemoveFromCart.apply {
-                isVisible = product.quantity > 0
-            }
-
-            imgProduct.loadDrawable(
-                product.url_imagen
-            )
         }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding =
-            ItemProductsBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+            ItemPedidosBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)
     }
 
@@ -49,8 +40,8 @@ class PedidosAdapter(private var items: MutableList<Product>) :
     override fun getItemCount(): Int = items.size
 
     @SuppressLint("NotifyDataSetChanged")
-    fun setItems(newItems: List<Product>) {
-        items = newItems.toMutableList()
+    fun setItems(newItems: List<Pedido>) {
+        items = newItems
         notifyDataSetChanged()
     }
 

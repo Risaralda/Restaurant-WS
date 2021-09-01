@@ -23,6 +23,8 @@ class LoginViewModel(private val authRepository: AuthRepository) : ViewModel() {
     private val _loginResult = MutableStateFlow<Resource<LoginRequest>>(Resource.Empty())
     val loginResult: StateFlow<Resource<LoginRequest>> = _loginResult
 
+    lateinit var user: User
+
     fun login(loginRequest: LoginRequest) {
         if (_loginResult.value is Resource.Loading) return
 
@@ -32,6 +34,7 @@ class LoginViewModel(private val authRepository: AuthRepository) : ViewModel() {
                 .catch { _loginResult.value = Resource.Error(it) }
                 .collect {
                     setCurrentUserData(it)
+                    user = it
                     _loginResult.value = Resource.Success(loginRequest)
                 }
         }
