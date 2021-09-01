@@ -1,46 +1,27 @@
 package com.example.restaurantws.data
 
+import com.example.restaurantws.data.auth.models.LoginRequest
+import com.example.restaurantws.data.auth.models.User
+import com.example.restaurantws.data.auth.models.UserDao
 import com.example.restaurantws.data.model.LoggedInUser
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.flowOn
 
 /**
  * Class that requests authentication and user information from the remote data source and
  * maintains an in-memory cache of login status and user credentials information.
  */
 
-class LoginRepository(val dataSource: LoginDataSource) {
+class LoginRepository(private val userDao: UserDao) {
+    suspend fun login(loginRequest: LoginRequest) = flow {
+        val user = userDao.getUserByEmail(loginRequest.email).first()
+        emit(user != null && user.contrasena == loginRequest.pwd)
+    }.flowOn(Dispatchers.IO)
 
-    // in-memory cache of the loggedInUser object
-    var user: LoggedInUser? = null
-        private set
+    suspend fun signUp(user: User) = flow {
+        emit(userDao.insert(user))
+    }.flowOn(Dispatchers.IO)
 
-    val isLoggedIn: Boolean
-        get() = user != null
-
-    init {
-        // If user credentials will be cached in local storage, it is recommended it be encrypted
-        // @see https://developer.android.com/training/articles/keystore
-        user = null
-    }
-
-    fun logout() {
-        user = null
-        dataSource.logout()
-    }
-
-    fun login(username: String, password: String): Result<LoggedInUser> {
-        // handle login
-        val result = dataSource.login(username, password)
-
-        if (result is Result.Success) {
-            setLoggedInUser(result.data)
-        }
-
-        return result
-    }
-
-    private fun setLoggedInUser(loggedInUser: LoggedInUser) {
-        this.user = loggedInUser
-        // If user credentials will be cached in local storage, it is recommended it be encrypted
-        // @see https://developer.android.com/training/articles/keystore
-    }
 }

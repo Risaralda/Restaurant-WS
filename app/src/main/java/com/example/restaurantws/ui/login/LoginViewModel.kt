@@ -4,28 +4,29 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import android.util.Patterns
+import androidx.lifecycle.viewModelScope
 import com.example.restaurantws.data.LoginRepository
-import com.example.restaurantws.data.Result
 
 import com.example.restaurantws.R
+import com.example.restaurantws.core.Resource
+import com.example.restaurantws.data.auth.models.LoginRequest
+import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.launch
 
 class LoginViewModel(private val loginRepository: LoginRepository) : ViewModel() {
 
     private val _loginForm = MutableLiveData<LoginFormState>()
     val loginFormState: LiveData<LoginFormState> = _loginForm
 
-    private val _loginResult = MutableLiveData<LoginResult>()
-    val loginResult: LiveData<LoginResult> = _loginResult
+    private val _loginResult = MutableStateFlow<Resource<Boolean>>(Resource.Empty())
+    val loginResult: StateFlow<Resource<Boolean>> = _loginResult
 
-    fun login(username: String, password: String) {
-        // can be launched in a separate asynchronous job
-        val result = loginRepository.login(username, password)
-
-        if (result is Result.Success) {
-            _loginResult.value =
-                LoginResult(success = LoggedInUserView(displayName = result.data.displayName))
-        } else {
-            _loginResult.value = LoginResult(error = R.string.login_failed)
+    fun login(loginRequest: LoginRequest) {
+        viewModelScope.launch {
+            loginRepository.login(loginRequest)
+                .onStart { _loginResult.value = Resource.Loading() }
+                .catch { _loginResult.value = Resource.Error(it) }
+                .collect { _loginResult.value = Resource.Success(it) }
         }
     }
 
@@ -39,16 +40,10 @@ class LoginViewModel(private val loginRepository: LoginRepository) : ViewModel()
         }
     }
 
-    // A placeholder username validation check
     private fun isUserNameValid(username: String): Boolean {
-        return if (username.contains('@')) {
-            Patterns.EMAIL_ADDRESS.matcher(username).matches()
-        } else {
-            username.isNotBlank()
-        }
+        return Patterns.EMAIL_ADDRESS.matcher(username).matches()
     }
 
-    // A placeholder password validation check
     private fun isPasswordValid(password: String): Boolean {
         return password.length > 5
     }
