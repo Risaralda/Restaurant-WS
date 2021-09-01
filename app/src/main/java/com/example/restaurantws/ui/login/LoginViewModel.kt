@@ -5,28 +5,42 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import android.util.Patterns
 import androidx.lifecycle.viewModelScope
-import com.example.restaurantws.data.LoginRepository
+import com.example.restaurantws.data.auth.AuthRepository
 
 import com.example.restaurantws.R
+import com.example.restaurantws.core.CurrentUser
 import com.example.restaurantws.core.Resource
 import com.example.restaurantws.data.auth.models.LoginRequest
+import com.example.restaurantws.data.auth.models.User
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
-class LoginViewModel(private val loginRepository: LoginRepository) : ViewModel() {
+class LoginViewModel(private val authRepository: AuthRepository) : ViewModel() {
 
     private val _loginForm = MutableLiveData<LoginFormState>()
     val loginFormState: LiveData<LoginFormState> = _loginForm
 
-    private val _loginResult = MutableStateFlow<Resource<Boolean>>(Resource.Empty())
-    val loginResult: StateFlow<Resource<Boolean>> = _loginResult
+    private val _loginResult = MutableStateFlow<Resource<LoginRequest>>(Resource.Empty())
+    val loginResult: StateFlow<Resource<LoginRequest>> = _loginResult
 
     fun login(loginRequest: LoginRequest) {
+        if (_loginResult.value is Resource.Loading) return
+
         viewModelScope.launch {
-            loginRepository.login(loginRequest)
+            authRepository.login(loginRequest)
                 .onStart { _loginResult.value = Resource.Loading() }
                 .catch { _loginResult.value = Resource.Error(it) }
-                .collect { _loginResult.value = Resource.Success(it) }
+                .collect {
+                    setCurrentUserData(it)
+                    _loginResult.value = Resource.Success(loginRequest)
+                }
+        }
+    }
+
+    private fun setCurrentUserData(user: User) {
+        CurrentUser.apply {
+            idCliente = user.id ?: 0
+            nombre = user.nombre
         }
     }
 
