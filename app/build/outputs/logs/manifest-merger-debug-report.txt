@@ -1,0 +1,329 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.databinding:viewbinding:7.0.1] C:\Users\SENA\.gradle\caches\transforms-3\3a9e28b8579fed88458b218947275bcc\transformed\jetified-viewbinding-7.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [io.insert-koin:koin-android:3.1.2] C:\Users\SENA\.gradle\caches\transforms-3\6bc4772f66938bf6e3a9d66ae1ee9ead\transformed\jetified-koin-android-3.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\bc9c1b8837272f96d0ea19a27e39d6ca\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\a60668a73a755386debaa33d5e5624aa\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\60093f5174db963e6ac587e31e97c304\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\62b46b126e7f5ece77317d4e76d43f9d\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.0] C:\Users\SENA\.gradle\caches\transforms-3\dce22dcfa10243faa014bf470477ea0f\transformed\jetified-fragment-ktx-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\148468f50df7cb9e44522491cea119bc\transformed\jetified-activity-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\fbdbb0206f44c101c189f042547d02b6\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\363b7dc4e980e025e73ae98d09026267\transformed\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\dc1f6b9f968766445dd4dd2ae5641e03\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\SENA\.gradle\caches\transforms-3\fe7308e14cf2abad229f72f0f9e2dc85\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\dfea6156d2125defd85aa4e8ba16f381\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\fd58cb55c3f1df10e1dfe8636ae791ff\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\SENA\.gradle\caches\transforms-3\41019637357459a745eef9452cfef899\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\de356cebe826a768e3877c5545e34ac7\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\SENA\.gradle\caches\transforms-3\ddc32651925386b210f8399ee04bf02d\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\6c6006a178cfcb0bce4e2d119b523803\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\c3ba7708af59c2361fb1292ecf7069cd\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\f1debbb20f02eba450b833786aa25375\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\a03a387f3eda75f246ec4e928fa7650d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\SENA\.gradle\caches\transforms-3\01efa05b8b8b8d4a778065bbaedf5941\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\f13559752ec85e44e84e0132d144acc0\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\739b3dbfd5082a04b29d7cdc274e8a35\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\SENA\.gradle\caches\transforms-3\8baca23634998fd57ae3fe4c5f7b8d90\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\SENA\.gradle\caches\transforms-3\33c3094549264782f4d53fbf62637acf\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\521e125f44a3c1fbcad98b787cb70f39\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\SENA\.gradle\caches\transforms-3\b810b74eb7d8a09c4362a4ba5236120c\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\SENA\.gradle\caches\transforms-3\35c70e583e0082f63f513e7454e1feff\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\0c8554314a6d5edecea5930705cc4a9d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\a24af3e8f2818beb6c235f52cd48dfa4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\d759f6187c183e4288c70b1e98452fbe\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\2be22fc3b0f83b0bc04de380be01a61b\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\d505c71f37932fbab3d96adf663834fd\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\ef1ef33e5699d7e3eda098d54c349933\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\dedf072a1b15dcfe55a742cb8fbfda72\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\5689c8dd42a311ad10e4c7688847d789\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\7b2dceaa8522edc437afac3695aea5af\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\SENA\.gradle\caches\transforms-3\72fc3ed77c383ed3212c3d8680ce3a54\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\1eca88f39f4205972edf992bc6a91cee\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\SENA\.gradle\caches\transforms-3\05890357b7e77d365e2a7d5c93c3236d\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\2576a4b644253607b8f65bd5ab85d8cb\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\SENA\.gradle\caches\transforms-3\b3931c2030f3ed878a2073d01b782ef1\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\4fb41dba4110dcf40c155c407ca602fc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\eb35e2c18661feb954ea546a2e9d4520\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\7ec8db25135ebbbdc127280eb25d4515\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\62152d59aa4b18742857d3a450616dec\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\06d5928df2631e052738f621fe633f17\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\029a7bbaecf11d100a5a21dec7d7b6e0\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\bbf74e701d1eee0f3bd1a615588f347d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\e608fca7bc3f56d0aae9fda13ebd4d4e\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\e3468679df7d20249bf044303e0ff885\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\SENA\.gradle\caches\transforms-3\89f7feaebfed04be48f81fd23b91ab0a\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\cc62ef4b1bf22930ccc8f261a00ad26e\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SENA\.gradle\caches\transforms-3\afb7630abce8996deb471340983f234b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\69c62d139000e92b1595211aaf920ca7\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\2b7f9f363702a9f022590f9eba057fce\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\823fb83797dc538303365ba3d608fbbb\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\7cdf8b7e9eee7f8499591404f08a674c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\76692159eb54b9e264ee88483422bca1\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\8fb22c2de4b0a94801e257b6d4a57277\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\ffb8304648b03b062bea008c400abed2\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\8824215069484f226c08f285407c94b9\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\7ae238be15c761a5db91688d1de61eb2\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\78d65500f27f25381d1c823a7f080fad\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:7:5-39:19
+MERGED from [io.insert-koin:koin-android:3.1.2] C:\Users\SENA\.gradle\caches\transforms-3\6bc4772f66938bf6e3a9d66ae1ee9ead\transformed\jetified-koin-android-3.1.2\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-android:3.1.2] C:\Users\SENA\.gradle\caches\transforms-3\6bc4772f66938bf6e3a9d66ae1ee9ead\transformed\jetified-koin-android-3.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\SENA\.gradle\caches\transforms-3\41019637357459a745eef9452cfef899\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\SENA\.gradle\caches\transforms-3\41019637357459a745eef9452cfef899\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\de356cebe826a768e3877c5545e34ac7\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\de356cebe826a768e3877c5545e34ac7\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\SENA\.gradle\caches\transforms-3\01efa05b8b8b8d4a778065bbaedf5941\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\SENA\.gradle\caches\transforms-3\01efa05b8b8b8d4a778065bbaedf5941\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\SENA\.gradle\caches\transforms-3\8baca23634998fd57ae3fe4c5f7b8d90\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\SENA\.gradle\caches\transforms-3\8baca23634998fd57ae3fe4c5f7b8d90\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\SENA\.gradle\caches\transforms-3\b3931c2030f3ed878a2073d01b782ef1\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\SENA\.gradle\caches\transforms-3\b3931c2030f3ed878a2073d01b782ef1\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\SENA\.gradle\caches\transforms-3\89f7feaebfed04be48f81fd23b91ab0a\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\SENA\.gradle\caches\transforms-3\89f7feaebfed04be48f81fd23b91ab0a\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SENA\.gradle\caches\transforms-3\afb7630abce8996deb471340983f234b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SENA\.gradle\caches\transforms-3\afb7630abce8996deb471340983f234b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\SENA\.gradle\caches\transforms-3\b3931c2030f3ed878a2073d01b782ef1\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:14:9-50
+	android:name
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:8:9-38
+activity#com.example.restaurantws.ui.MainActivity
+ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:15:9-19:69
+	android:label
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:18:13-56
+	android:exported
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:19:13-66
+	android:name
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:16:13-44
+activity#com.example.restaurantws.ui.splash.SplashScreenActivity
+ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:20:9-28:20
+	android:exported
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:21:13-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.example.restaurantws.ui.speciality.SpecialityActivity
+ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:29:9-31:39
+	android:exported
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:30:13-61
+activity#com.example.restaurantws.ui.sign_up.SignUpActivity
+ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:32:9-34:39
+	android:exported
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:33:13-54
+activity#com.example.restaurantws.ui.login.LoginActivity
+ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:35:9-38:57
+	android:label
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:38:13-45
+	android:exported
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml:36:13-51
+uses-sdk
+INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.1] C:\Users\SENA\.gradle\caches\transforms-3\3a9e28b8579fed88458b218947275bcc\transformed\jetified-viewbinding-7.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.1] C:\Users\SENA\.gradle\caches\transforms-3\3a9e28b8579fed88458b218947275bcc\transformed\jetified-viewbinding-7.0.1\AndroidManifest.xml:20:5-44
+MERGED from [io.insert-koin:koin-android:3.1.2] C:\Users\SENA\.gradle\caches\transforms-3\6bc4772f66938bf6e3a9d66ae1ee9ead\transformed\jetified-koin-android-3.1.2\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:3.1.2] C:\Users\SENA\.gradle\caches\transforms-3\6bc4772f66938bf6e3a9d66ae1ee9ead\transformed\jetified-koin-android-3.1.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\bc9c1b8837272f96d0ea19a27e39d6ca\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\bc9c1b8837272f96d0ea19a27e39d6ca\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\a60668a73a755386debaa33d5e5624aa\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\a60668a73a755386debaa33d5e5624aa\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\60093f5174db963e6ac587e31e97c304\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\60093f5174db963e6ac587e31e97c304\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\62b46b126e7f5ece77317d4e76d43f9d\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\62b46b126e7f5ece77317d4e76d43f9d\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.0] C:\Users\SENA\.gradle\caches\transforms-3\dce22dcfa10243faa014bf470477ea0f\transformed\jetified-fragment-ktx-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.0] C:\Users\SENA\.gradle\caches\transforms-3\dce22dcfa10243faa014bf470477ea0f\transformed\jetified-fragment-ktx-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\148468f50df7cb9e44522491cea119bc\transformed\jetified-activity-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\148468f50df7cb9e44522491cea119bc\transformed\jetified-activity-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\fbdbb0206f44c101c189f042547d02b6\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\fbdbb0206f44c101c189f042547d02b6\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\363b7dc4e980e025e73ae98d09026267\transformed\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\363b7dc4e980e025e73ae98d09026267\transformed\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\dc1f6b9f968766445dd4dd2ae5641e03\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\dc1f6b9f968766445dd4dd2ae5641e03\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\SENA\.gradle\caches\transforms-3\fe7308e14cf2abad229f72f0f9e2dc85\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\SENA\.gradle\caches\transforms-3\fe7308e14cf2abad229f72f0f9e2dc85\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\dfea6156d2125defd85aa4e8ba16f381\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\dfea6156d2125defd85aa4e8ba16f381\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\fd58cb55c3f1df10e1dfe8636ae791ff\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\fd58cb55c3f1df10e1dfe8636ae791ff\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\SENA\.gradle\caches\transforms-3\41019637357459a745eef9452cfef899\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\SENA\.gradle\caches\transforms-3\41019637357459a745eef9452cfef899\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\de356cebe826a768e3877c5545e34ac7\transformed\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\de356cebe826a768e3877c5545e34ac7\transformed\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\SENA\.gradle\caches\transforms-3\ddc32651925386b210f8399ee04bf02d\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\SENA\.gradle\caches\transforms-3\ddc32651925386b210f8399ee04bf02d\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\6c6006a178cfcb0bce4e2d119b523803\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\6c6006a178cfcb0bce4e2d119b523803\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\c3ba7708af59c2361fb1292ecf7069cd\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\c3ba7708af59c2361fb1292ecf7069cd\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\f1debbb20f02eba450b833786aa25375\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\f1debbb20f02eba450b833786aa25375\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\a03a387f3eda75f246ec4e928fa7650d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\a03a387f3eda75f246ec4e928fa7650d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\SENA\.gradle\caches\transforms-3\01efa05b8b8b8d4a778065bbaedf5941\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\SENA\.gradle\caches\transforms-3\01efa05b8b8b8d4a778065bbaedf5941\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\f13559752ec85e44e84e0132d144acc0\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\f13559752ec85e44e84e0132d144acc0\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\739b3dbfd5082a04b29d7cdc274e8a35\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\739b3dbfd5082a04b29d7cdc274e8a35\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\SENA\.gradle\caches\transforms-3\8baca23634998fd57ae3fe4c5f7b8d90\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\SENA\.gradle\caches\transforms-3\8baca23634998fd57ae3fe4c5f7b8d90\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\SENA\.gradle\caches\transforms-3\33c3094549264782f4d53fbf62637acf\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\SENA\.gradle\caches\transforms-3\33c3094549264782f4d53fbf62637acf\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\521e125f44a3c1fbcad98b787cb70f39\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\521e125f44a3c1fbcad98b787cb70f39\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\SENA\.gradle\caches\transforms-3\b810b74eb7d8a09c4362a4ba5236120c\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\SENA\.gradle\caches\transforms-3\b810b74eb7d8a09c4362a4ba5236120c\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\SENA\.gradle\caches\transforms-3\35c70e583e0082f63f513e7454e1feff\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\SENA\.gradle\caches\transforms-3\35c70e583e0082f63f513e7454e1feff\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\0c8554314a6d5edecea5930705cc4a9d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\0c8554314a6d5edecea5930705cc4a9d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\a24af3e8f2818beb6c235f52cd48dfa4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\a24af3e8f2818beb6c235f52cd48dfa4\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\d759f6187c183e4288c70b1e98452fbe\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\d759f6187c183e4288c70b1e98452fbe\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\2be22fc3b0f83b0bc04de380be01a61b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\2be22fc3b0f83b0bc04de380be01a61b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\d505c71f37932fbab3d96adf663834fd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\d505c71f37932fbab3d96adf663834fd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\ef1ef33e5699d7e3eda098d54c349933\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\ef1ef33e5699d7e3eda098d54c349933\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\dedf072a1b15dcfe55a742cb8fbfda72\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\dedf072a1b15dcfe55a742cb8fbfda72\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\5689c8dd42a311ad10e4c7688847d789\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\5689c8dd42a311ad10e4c7688847d789\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\7b2dceaa8522edc437afac3695aea5af\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\7b2dceaa8522edc437afac3695aea5af\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\SENA\.gradle\caches\transforms-3\72fc3ed77c383ed3212c3d8680ce3a54\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\SENA\.gradle\caches\transforms-3\72fc3ed77c383ed3212c3d8680ce3a54\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\1eca88f39f4205972edf992bc6a91cee\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\1eca88f39f4205972edf992bc6a91cee\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\SENA\.gradle\caches\transforms-3\05890357b7e77d365e2a7d5c93c3236d\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\SENA\.gradle\caches\transforms-3\05890357b7e77d365e2a7d5c93c3236d\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\2576a4b644253607b8f65bd5ab85d8cb\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\SENA\.gradle\caches\transforms-3\2576a4b644253607b8f65bd5ab85d8cb\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\SENA\.gradle\caches\transforms-3\b3931c2030f3ed878a2073d01b782ef1\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\SENA\.gradle\caches\transforms-3\b3931c2030f3ed878a2073d01b782ef1\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\4fb41dba4110dcf40c155c407ca602fc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\4fb41dba4110dcf40c155c407ca602fc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\eb35e2c18661feb954ea546a2e9d4520\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\eb35e2c18661feb954ea546a2e9d4520\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\7ec8db25135ebbbdc127280eb25d4515\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\7ec8db25135ebbbdc127280eb25d4515\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\62152d59aa4b18742857d3a450616dec\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\62152d59aa4b18742857d3a450616dec\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\06d5928df2631e052738f621fe633f17\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\06d5928df2631e052738f621fe633f17\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\029a7bbaecf11d100a5a21dec7d7b6e0\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\029a7bbaecf11d100a5a21dec7d7b6e0\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\bbf74e701d1eee0f3bd1a615588f347d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\bbf74e701d1eee0f3bd1a615588f347d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\e608fca7bc3f56d0aae9fda13ebd4d4e\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\e608fca7bc3f56d0aae9fda13ebd4d4e\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\e3468679df7d20249bf044303e0ff885\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\e3468679df7d20249bf044303e0ff885\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\SENA\.gradle\caches\transforms-3\89f7feaebfed04be48f81fd23b91ab0a\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\SENA\.gradle\caches\transforms-3\89f7feaebfed04be48f81fd23b91ab0a\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\cc62ef4b1bf22930ccc8f261a00ad26e\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\cc62ef4b1bf22930ccc8f261a00ad26e\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SENA\.gradle\caches\transforms-3\afb7630abce8996deb471340983f234b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SENA\.gradle\caches\transforms-3\afb7630abce8996deb471340983f234b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\69c62d139000e92b1595211aaf920ca7\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\69c62d139000e92b1595211aaf920ca7\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\2b7f9f363702a9f022590f9eba057fce\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\2b7f9f363702a9f022590f9eba057fce\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\823fb83797dc538303365ba3d608fbbb\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\823fb83797dc538303365ba3d608fbbb\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\7cdf8b7e9eee7f8499591404f08a674c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\7cdf8b7e9eee7f8499591404f08a674c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\76692159eb54b9e264ee88483422bca1\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\SENA\.gradle\caches\transforms-3\76692159eb54b9e264ee88483422bca1\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\8fb22c2de4b0a94801e257b6d4a57277\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\8fb22c2de4b0a94801e257b6d4a57277\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\ffb8304648b03b062bea008c400abed2\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\ffb8304648b03b062bea008c400abed2\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\8824215069484f226c08f285407c94b9\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\SENA\.gradle\caches\transforms-3\8824215069484f226c08f285407c94b9\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\7ae238be15c761a5db91688d1de61eb2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\SENA\.gradle\caches\transforms-3\7ae238be15c761a5db91688d1de61eb2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\78d65500f27f25381d1c823a7f080fad\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\SENA\.gradle\caches\transforms-3\78d65500f27f25381d1c823a7f080fad\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SENA\AndroidStudioProjects\RestaurantWS\app\src\main\AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\SENA\.gradle\caches\transforms-3\854014f5dceb530763d3190216d05d5b\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74

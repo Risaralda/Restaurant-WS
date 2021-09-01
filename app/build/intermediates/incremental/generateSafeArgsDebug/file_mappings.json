@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.example.restaurantws.NavGraphDirections","com.example.restaurantws.ui.categories.CategoriesFragmentDirections","com.example.restaurantws.ui.products.ProductsFragmentDirections","com.example.restaurantws.ui.products.ProductsFragmentArgs","com.example.restaurantws.ui.pedidos.PedidosFragmentDirections"]}]

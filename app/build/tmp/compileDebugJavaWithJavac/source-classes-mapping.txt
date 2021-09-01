@@ -1,0 +1,32 @@
+com/example/restaurantws/databinding/FragmentPedidosBinding.java
+ com.example.restaurantws.databinding.FragmentPedidosBinding
+com/example/restaurantws/databinding/ItemProductsBinding.java
+ com.example.restaurantws.databinding.ItemProductsBinding
+com/example/restaurantws/databinding/ActivitySignUpBinding.java
+ com.example.restaurantws.databinding.ActivitySignUpBinding
+com/example/restaurantws/databinding/CustomHeaderBinding.java
+ com.example.restaurantws.databinding.CustomHeaderBinding
+com/example/restaurantws/databinding/ActivitySplashScreenBinding.java
+ com.example.restaurantws.databinding.ActivitySplashScreenBinding
+com/example/restaurantws/databinding/ItemPedidosBinding.java
+ com.example.restaurantws.databinding.ItemPedidosBinding
+com/example/restaurantws/databinding/ItemCategoriesBinding.java
+ com.example.restaurantws.databinding.ItemCategoriesBinding
+com/example/restaurantws/databinding/ContentMainBinding.java
+ com.example.restaurantws.databinding.ContentMainBinding
+com/example/restaurantws/databinding/BodyLoginBinding.java
+ com.example.restaurantws.databinding.BodyLoginBinding
+com/example/restaurantws/databinding/FragmentCategoriesBinding.java
+ com.example.restaurantws.databinding.FragmentCategoriesBinding
+com/example/restaurantws/databinding/BodySignUpBinding.java
+ com.example.restaurantws.databinding.BodySignUpBinding
+com/example/restaurantws/BuildConfig.java
+ com.example.restaurantws.BuildConfig
+com/example/restaurantws/databinding/ActivityMainBinding.java
+ com.example.restaurantws.databinding.ActivityMainBinding
+com/example/restaurantws/databinding/FragmentProductsBinding.java
+ com.example.restaurantws.databinding.FragmentProductsBinding
+com/example/restaurantws/databinding/ActivityLoginBinding.java
+ com.example.restaurantws.databinding.ActivityLoginBinding
+com/example/restaurantws/databinding/ActivitySpecialityBinding.java
+ com.example.restaurantws.databinding.ActivitySpecialityBinding

@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_speciality.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\activity_speciality.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_products.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\fragment_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\body_login.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\body_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_header.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\custom_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_categories.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\fragment_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_categories.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\item_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_pedidos.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\item_pedidos.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_products.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\item_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\products_fragment.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\products_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\body_sign_up.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\body_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_pedidos.xml",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\fragment_pedidos.xml"
+    }
+]
