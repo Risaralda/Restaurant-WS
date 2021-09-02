@@ -8,5 +8,5 @@ data class Category(
     val id: Int,
     val nombre: String,
     val descripcion: String,
-    val url_imagen: Int,
+    val url_imagen: String,
 ): Parcelable

@@ -10,7 +10,7 @@ import com.example.restaurantws.data.main.models.especialidad.Speciality
 import com.example.restaurantws.databinding.ActivitySpecialityBinding
 import com.example.restaurantws.ui.MainActivity
 import com.example.restaurantws.utils.goToActivity
-import com.example.restaurantws.utils.loadDrawable
+import com.example.restaurantws.utils.load
 import com.example.restaurantws.utils.toast
 import kotlinx.coroutines.flow.collect
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -60,6 +60,6 @@ SpecialityActivity : AppCompatActivity() {
         specialityDesc.text = data.descripcion
         "$ ${data.precio}".also { specialityPrice.text = it }
 
-        imgSpeciality.loadDrawable(data.url_foto)
+        imgSpeciality.load(data.url_foto)
     }
 }

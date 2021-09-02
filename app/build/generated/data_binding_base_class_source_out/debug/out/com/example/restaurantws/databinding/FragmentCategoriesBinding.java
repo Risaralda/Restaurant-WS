@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.restaurantws.R;
+import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -19,6 +20,9 @@ import java.lang.String;
 public final class FragmentCategoriesBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final MaterialCardView categoriesCard;
 
   @NonNull
   public final CustomHeaderBinding include;
@@ -30,9 +34,10 @@ public final class FragmentCategoriesBinding implements ViewBinding {
   public final RecyclerView rcViewCategories;
 
   private FragmentCategoriesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull CustomHeaderBinding include, @NonNull ProgressBar progressBarCategory,
-      @NonNull RecyclerView rcViewCategories) {
+      @NonNull MaterialCardView categoriesCard, @NonNull CustomHeaderBinding include,
+      @NonNull ProgressBar progressBarCategory, @NonNull RecyclerView rcViewCategories) {
     this.rootView = rootView;
+    this.categoriesCard = categoriesCard;
     this.include = include;
     this.progressBarCategory = progressBarCategory;
     this.rcViewCategories = rcViewCategories;
@@ -65,6 +70,12 @@ public final class FragmentCategoriesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.categoriesCard;
+      MaterialCardView categoriesCard = ViewBindings.findChildViewById(rootView, id);
+      if (categoriesCard == null) {
+        break missingId;
+      }
+
       id = R.id.include;
       View include = ViewBindings.findChildViewById(rootView, id);
       if (include == null) {
@@ -84,8 +95,8 @@ public final class FragmentCategoriesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentCategoriesBinding((ConstraintLayout) rootView, binding_include,
-          progressBarCategory, rcViewCategories);
+      return new FragmentCategoriesBinding((ConstraintLayout) rootView, categoriesCard,
+          binding_include, progressBarCategory, rcViewCategories);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

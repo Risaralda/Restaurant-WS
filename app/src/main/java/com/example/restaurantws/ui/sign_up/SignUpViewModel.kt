@@ -1,14 +1,14 @@
 package com.example.restaurantws.ui.sign_up
 
+import android.util.Patterns
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import android.util.Patterns
 import androidx.lifecycle.viewModelScope
-import com.example.restaurantws.data.auth.AuthRepository
-
 import com.example.restaurantws.R
 import com.example.restaurantws.core.Resource
+import com.example.restaurantws.core.api.models.ApiResponse
+import com.example.restaurantws.data.auth.AuthRepository
 import com.example.restaurantws.data.auth.models.Policies
 import com.example.restaurantws.data.auth.models.User
 import kotlinx.coroutines.flow.*
@@ -22,8 +22,8 @@ class SignUpViewModel(private val authRepository: AuthRepository) : ViewModel() 
     private val _policiesResult = MutableStateFlow<Resource<Policies>>(Resource.Empty())
     val policiesResult: StateFlow<Resource<Policies>> = _policiesResult
 
-    private val _signUpResult = MutableStateFlow<Resource<Unit>>(Resource.Empty())
-    val signUpResult: StateFlow<Resource<Unit>> = _signUpResult
+    private val _signUpResult = MutableStateFlow<Resource<ApiResponse>>(Resource.Empty())
+    val signUpResult: StateFlow<Resource<ApiResponse>> = _signUpResult
 
     fun signUp(user: User) {
         viewModelScope.launch {

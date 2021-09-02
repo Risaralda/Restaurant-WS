@@ -4,6 +4,7 @@ package com.example.restaurantws.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,7 +21,10 @@ public final class ActivitySignUpBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout container;
+  public final ImageView imageView2;
+
+  @NonNull
+  public final ConstraintLayout imgBack;
 
   @NonNull
   public final ProgressBar progressBarSignUp;
@@ -28,11 +32,12 @@ public final class ActivitySignUpBinding implements ViewBinding {
   @NonNull
   public final BodySignUpBinding signUpBody;
 
-  private ActivitySignUpBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout container, @NonNull ProgressBar progressBarSignUp,
+  private ActivitySignUpBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
+      @NonNull ConstraintLayout imgBack, @NonNull ProgressBar progressBarSignUp,
       @NonNull BodySignUpBinding signUpBody) {
     this.rootView = rootView;
-    this.container = container;
+    this.imageView2 = imageView2;
+    this.imgBack = imgBack;
     this.progressBarSignUp = progressBarSignUp;
     this.signUpBody = signUpBody;
   }
@@ -64,7 +69,13 @@ public final class ActivitySignUpBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      ConstraintLayout container = (ConstraintLayout) rootView;
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
+      ConstraintLayout imgBack = (ConstraintLayout) rootView;
 
       id = R.id.progressBarSignUp;
       ProgressBar progressBarSignUp = ViewBindings.findChildViewById(rootView, id);
@@ -79,8 +90,8 @@ public final class ActivitySignUpBinding implements ViewBinding {
       }
       BodySignUpBinding binding_signUpBody = BodySignUpBinding.bind(signUpBody);
 
-      return new ActivitySignUpBinding((ConstraintLayout) rootView, container, progressBarSignUp,
-          binding_signUpBody);
+      return new ActivitySignUpBinding((ConstraintLayout) rootView, imageView2, imgBack,
+          progressBarSignUp, binding_signUpBody);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

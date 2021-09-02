@@ -1,9 +1,24 @@
+com/example/restaurantws/core/database/RestaurantDB_Impl.java
+ com.example.restaurantws.core.database.RestaurantDB_Impl
+ com.example.restaurantws.core.database.RestaurantDB_Impl$1
 com/example/restaurantws/databinding/FragmentPedidosBinding.java
  com.example.restaurantws.databinding.FragmentPedidosBinding
 com/example/restaurantws/databinding/ItemProductsBinding.java
  com.example.restaurantws.databinding.ItemProductsBinding
 com/example/restaurantws/databinding/ActivitySignUpBinding.java
  com.example.restaurantws.databinding.ActivitySignUpBinding
+com/example/restaurantws/databinding/FragmentPedidoDetailBinding.java
+ com.example.restaurantws.databinding.FragmentPedidoDetailBinding
+com/example/restaurantws/data/main/PedidosDao_Impl.java
+ com.example.restaurantws.data.main.PedidosDao_Impl
+ com.example.restaurantws.data.main.PedidosDao_Impl$1
+ com.example.restaurantws.data.main.PedidosDao_Impl$2
+ com.example.restaurantws.data.main.PedidosDao_Impl$3
+ com.example.restaurantws.data.main.PedidosDao_Impl$4
+ com.example.restaurantws.data.main.PedidosDao_Impl$5
+ com.example.restaurantws.data.main.PedidosDao_Impl$6
+ com.example.restaurantws.data.main.PedidosDao_Impl$7
+ com.example.restaurantws.data.main.PedidosDao_Impl$8
 com/example/restaurantws/databinding/CustomHeaderBinding.java
  com.example.restaurantws.databinding.CustomHeaderBinding
 com/example/restaurantws/databinding/ActivitySplashScreenBinding.java
@@ -14,6 +29,8 @@ com/example/restaurantws/databinding/ItemCategoriesBinding.java
  com.example.restaurantws.databinding.ItemCategoriesBinding
 com/example/restaurantws/databinding/ContentMainBinding.java
  com.example.restaurantws.databinding.ContentMainBinding
+com/example/restaurantws/databinding/FragmentProductDetailBinding.java
+ com.example.restaurantws.databinding.FragmentProductDetailBinding
 com/example/restaurantws/databinding/BodyLoginBinding.java
  com.example.restaurantws.databinding.BodyLoginBinding
 com/example/restaurantws/databinding/FragmentCategoriesBinding.java
@@ -28,5 +45,7 @@ com/example/restaurantws/databinding/FragmentProductsBinding.java
  com.example.restaurantws.databinding.FragmentProductsBinding
 com/example/restaurantws/databinding/ActivityLoginBinding.java
  com.example.restaurantws.databinding.ActivityLoginBinding
+com/example/restaurantws/databinding/ItemPedidoDetailBinding.java
+ com.example.restaurantws.databinding.ItemPedidoDetailBinding
 com/example/restaurantws/databinding/ActivitySpecialityBinding.java
  com.example.restaurantws.databinding.ActivitySpecialityBinding

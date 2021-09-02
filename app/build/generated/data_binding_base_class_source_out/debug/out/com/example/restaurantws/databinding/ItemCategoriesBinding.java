@@ -27,13 +27,17 @@ public final class ItemCategoriesBinding implements ViewBinding {
   public final TextView categoryName;
 
   @NonNull
+  public final View divider;
+
+  @NonNull
   public final ImageView imgCategory;
 
   private ItemCategoriesBinding(@NonNull ConstraintLayout rootView, @NonNull TextView categoryDesc,
-      @NonNull TextView categoryName, @NonNull ImageView imgCategory) {
+      @NonNull TextView categoryName, @NonNull View divider, @NonNull ImageView imgCategory) {
     this.rootView = rootView;
     this.categoryDesc = categoryDesc;
     this.categoryName = categoryName;
+    this.divider = divider;
     this.imgCategory = imgCategory;
   }
 
@@ -76,6 +80,12 @@ public final class ItemCategoriesBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.divider;
+      View divider = ViewBindings.findChildViewById(rootView, id);
+      if (divider == null) {
+        break missingId;
+      }
+
       id = R.id.imgCategory;
       ImageView imgCategory = ViewBindings.findChildViewById(rootView, id);
       if (imgCategory == null) {
@@ -83,7 +93,7 @@ public final class ItemCategoriesBinding implements ViewBinding {
       }
 
       return new ItemCategoriesBinding((ConstraintLayout) rootView, categoryDesc, categoryName,
-          imgCategory);
+          divider, imgCategory);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

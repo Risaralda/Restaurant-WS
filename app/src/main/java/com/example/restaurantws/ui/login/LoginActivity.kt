@@ -1,11 +1,11 @@
 package com.example.restaurantws.ui.login
 
 import android.content.SharedPreferences
-import androidx.lifecycle.Observer
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.view.inputmethod.EditorInfo
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
+import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
 import com.example.restaurantws.R
 import com.example.restaurantws.core.Resource
@@ -16,6 +16,7 @@ import com.example.restaurantws.ui.speciality.SpecialityActivity
 import com.example.restaurantws.utils.afterTextChanged
 import com.example.restaurantws.utils.goToActivity
 import com.example.restaurantws.utils.toast
+import com.google.gson.Gson
 import kotlinx.coroutines.flow.collect
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -120,7 +121,7 @@ class LoginActivity : AppCompatActivity() {
                             it.data!!
                         )
 
-                        saveUserCredentials()
+                        saveCurrentUser()
 
                         goToActivity<SpecialityActivity>()
                         finish()
@@ -129,11 +130,13 @@ class LoginActivity : AppCompatActivity() {
             }
         }
     }
-
-    private fun saveUserCredentials() {
+    private fun saveCurrentUser() {
         with(prefs.edit())
         {
-            putBoolean(getString(R.string.is_saved_current_user), true)
+            putString(
+                getString(R.string.is_saved_current_user),
+                Gson().toJson(loginViewModel.loggedInUser)
+            )
             commit()
         }
     }

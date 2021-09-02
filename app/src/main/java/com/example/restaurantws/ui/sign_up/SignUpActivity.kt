@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
+import com.example.restaurantws.R
 import com.example.restaurantws.core.Resource
 import com.example.restaurantws.data.auth.models.LoginRequest
 import com.example.restaurantws.data.auth.models.User
@@ -17,6 +18,7 @@ import com.example.restaurantws.utils.afterTextChanged
 import com.example.restaurantws.utils.goToActivity
 import com.example.restaurantws.utils.toast
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import com.google.gson.Gson
 import kotlinx.coroutines.flow.collect
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -41,6 +43,8 @@ class SignUpActivity : AppCompatActivity() {
         setUpInputValidations()
 
         signUpViewModel.getPolicies()
+
+        binding.imgBack.setOnClickListener { finish() }
     }
 
     private fun observePrivacyPoliciesResult() {
@@ -100,7 +104,6 @@ class SignUpActivity : AppCompatActivity() {
 
     private fun buildSignUpRequest(): User = with(binding.signUpBody) {
         return User(
-            null,
             signUpName.text.toString(),
             signUpEmail.text.toString(),
             signUpPassword.text.toString(),
@@ -156,7 +159,7 @@ class SignUpActivity : AppCompatActivity() {
                         toast(it.error?.message)
                     }
                     is Resource.Success -> {
-                        saveUserCredentials()
+                        saveCurrentUser()
                         goToActivity<SpecialityActivity>()
                         finish()
                     }
@@ -168,10 +171,13 @@ class SignUpActivity : AppCompatActivity() {
         }
     }
 
-    private fun saveUserCredentials() {
+    private fun saveCurrentUser() {
         with(prefs.edit())
         {
-            putBoolean(getString(com.example.restaurantws.R.string.is_saved_current_user), true)
+            putString(
+                getString(R.string.is_saved_current_user),
+                Gson().toJson(loginViewModel.loggedInUser)
+            )
             commit()
         }
     }

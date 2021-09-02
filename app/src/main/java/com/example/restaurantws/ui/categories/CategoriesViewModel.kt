@@ -15,6 +15,8 @@ class CategoriesViewModel(private val mainRepository: MainRepository) : ViewMode
     val signUpResult: StateFlow<Resource<List<Category>>> = _categoriesResult
 
     fun loadCategories() {
+        if(_categoriesResult.value is Resource.Success) return
+
         viewModelScope.launch {
             mainRepository.getCategories()
                 .onStart { _categoriesResult.value = Resource.Loading() }

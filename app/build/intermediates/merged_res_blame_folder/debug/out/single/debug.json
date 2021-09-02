@@ -16,6 +16,10 @@
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\body_login.xml"
     },
     {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_product_detail.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\fragment_product_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -28,12 +32,12 @@
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\body_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
-    },
-    {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_parrillada.png.flat",
@@ -56,16 +60,20 @@
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_jugos_agua.jpg.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\jugos_agua.jpg"
     },
     {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_exit_to_app_24.xml.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\ic_baseline_exit_to_app_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\layout_item_pedido_detail.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\item_pedido_detail.xml"
     },
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_bandeja_lentejas.png.flat",
@@ -88,6 +96,10 @@
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\ic_baseline_add_shopping_cart_24.xml"
     },
     {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_pedido_detail.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\fragment_pedido_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
@@ -100,6 +112,10 @@
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\filete_pescado.jpg"
     },
     {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_delete_forever_24.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\ic_baseline_delete_forever_24.xml"
+    },
+    {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_speciality.xml.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\activity_speciality.xml"
     },
@@ -110,6 +126,10 @@
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_ios_24.xml"
     },
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_bandeja_mediana.jpg.flat",
@@ -140,16 +160,16 @@
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\ensalada_pollo.jpg"
     },
     {
-        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\layout_content_main.xml.flat",
-        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\content_main.xml"
-    },
-    {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_bandeja_paisa.png.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\bandeja_paisa.png"
     },
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_shopping_cart_24.xml.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\ic_baseline_shopping_cart_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -160,12 +180,20 @@
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\mazamorra.png"
     },
     {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\font_lato_bold.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\font\\lato_bold.xml"
+    },
+    {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_my.png.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\ic_my.png"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\font_lato.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\font\\lato.xml"
     },
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_desayunos.png.flat",
@@ -180,12 +208,16 @@
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\item_products.xml"
     },
     {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_header.xml.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\custom_header.xml"
     },
     {
-        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_main.xml.flat",
-        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_pedidos.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\fragment_pedidos.xml"
     },
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_sancocho_res.png.flat",
@@ -196,32 +228,28 @@
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\mixto_carnes.png"
     },
     {
-        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_pedidos.xml.flat",
-        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\layout\\fragment_pedidos.xml"
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_picada.png.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\picada.png"
     },
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_salmon.png.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\salmon.png"
     },
     {
-        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_picada.png.flat",
-        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\picada.png"
-    },
-    {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_bebidas.jpg.flat",
-        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\bebidas.jpg"
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_restaurant.png.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\restaurant.png"
     },
     {
-        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_bebidas.jpg.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\bebidas.jpg"
     },
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_remove_24.xml.flat",
@@ -246,5 +274,9 @@
     {
         "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_product_quantiy.xml.flat",
         "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\drawable\\bg_product_quantiy.xml"
+    },
+    {
+        "merged": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\build\\intermediates\\merged_res\\debug\\font_catamaran_medium.xml.flat",
+        "source": "C:\\Users\\SENA\\AndroidStudioProjects\\RestaurantWS\\app\\src\\main\\res\\font\\catamaran_medium.xml"
     }
 ]

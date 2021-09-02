@@ -25,7 +25,7 @@ public final class BodySignUpBinding implements ViewBinding {
   public final Button btnSignUp;
 
   @NonNull
-  public final ConstraintLayout container;
+  public final ConstraintLayout imgBack;
 
   @NonNull
   public final ProgressBar progressBarLogin;
@@ -43,12 +43,12 @@ public final class BodySignUpBinding implements ViewBinding {
   public final EditText signUpPassword;
 
   private BodySignUpBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnSignUp,
-      @NonNull ConstraintLayout container, @NonNull ProgressBar progressBarLogin,
+      @NonNull ConstraintLayout imgBack, @NonNull ProgressBar progressBarLogin,
       @NonNull EditText signUpCity, @NonNull EditText signUpEmail, @NonNull EditText signUpName,
       @NonNull EditText signUpPassword) {
     this.rootView = rootView;
     this.btnSignUp = btnSignUp;
-    this.container = container;
+    this.imgBack = imgBack;
     this.progressBarLogin = progressBarLogin;
     this.signUpCity = signUpCity;
     this.signUpEmail = signUpEmail;
@@ -89,7 +89,7 @@ public final class BodySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      ConstraintLayout container = (ConstraintLayout) rootView;
+      ConstraintLayout imgBack = (ConstraintLayout) rootView;
 
       id = R.id.progressBarLogin;
       ProgressBar progressBarLogin = ViewBindings.findChildViewById(rootView, id);
@@ -121,7 +121,7 @@ public final class BodySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      return new BodySignUpBinding((ConstraintLayout) rootView, btnSignUp, container,
+      return new BodySignUpBinding((ConstraintLayout) rootView, btnSignUp, imgBack,
           progressBarLogin, signUpCity, signUpEmail, signUpName, signUpPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);

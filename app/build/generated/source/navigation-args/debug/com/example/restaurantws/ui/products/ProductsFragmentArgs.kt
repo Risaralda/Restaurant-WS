@@ -7,11 +7,13 @@ import com.example.restaurantws.`data`.main.models.categorias.Category
 import java.io.Serializable
 import java.lang.IllegalArgumentException
 import java.lang.UnsupportedOperationException
+import kotlin.String
 import kotlin.Suppress
 import kotlin.jvm.JvmStatic
 
 public data class ProductsFragmentArgs(
-  public val category: Category
+  public val category: Category,
+  public val title: String
 ) : NavArgs {
   @Suppress("CAST_NEVER_SUCCEEDS")
   public fun toBundle(): Bundle {
@@ -24,6 +26,7 @@ public data class ProductsFragmentArgs(
       throw UnsupportedOperationException(Category::class.java.name +
           " must implement Parcelable or Serializable or must be an Enum.")
     }
+    result.putString("title", this.title)
     return result
   }
 
@@ -46,7 +49,16 @@ public data class ProductsFragmentArgs(
       } else {
         throw IllegalArgumentException("Required argument \"category\" is missing and does not have an android:defaultValue")
       }
-      return ProductsFragmentArgs(__category)
+      val __title : String?
+      if (bundle.containsKey("title")) {
+        __title = bundle.getString("title")
+        if (__title == null) {
+          throw IllegalArgumentException("Argument \"title\" is marked as non-null but was passed a null value.")
+        }
+      } else {
+        throw IllegalArgumentException("Required argument \"title\" is missing and does not have an android:defaultValue")
+      }
+      return ProductsFragmentArgs(__category, __title)
     }
   }
 }

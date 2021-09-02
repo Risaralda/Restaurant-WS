@@ -2,10 +2,12 @@ package com.example.restaurantws.core.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.restaurantws.data.auth.models.User
-import com.example.restaurantws.data.auth.models.UserDao
+import androidx.room.TypeConverters
+import com.example.restaurantws.data.main.PedidosDao
+import com.example.restaurantws.data.main.models.pedidos.Pedido
 
-@Database(entities = [User::class], version = 1, exportSchema = false)
+@Database(entities = [Pedido::class], version = 1, exportSchema = false)
+@TypeConverters(Converters::class)
 abstract class RestaurantDB : RoomDatabase() {
-    abstract fun userDao(): UserDao
+    abstract fun pedidosDao(): PedidosDao
 }

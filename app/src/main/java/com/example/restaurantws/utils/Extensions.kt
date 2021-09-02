@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.Toast
 import androidx.core.content.res.ResourcesCompat
 import androidx.fragment.app.Fragment
+import com.bumptech.glide.Glide
 
 
 fun Activity.toast(message: String?) {
@@ -22,13 +23,10 @@ inline fun <reified T> Activity.goToActivity() {
 }
 
 
-//fun ImageView.load(url: String) {
-//    Glide.with(this).load(url).into(this)
-//}
-
-fun ImageView.loadDrawable(drawable: Int) {
-    setImageDrawable(ResourcesCompat.getDrawable(resources, drawable, null))
+fun ImageView.load(url: String) {
+    Glide.with(this).load(url).into(this)
 }
+
 
 fun Fragment.toast(message: String?) {
     Toast.makeText(requireContext(), message ?: "Ocurrió un error inesperado", Toast.LENGTH_SHORT)

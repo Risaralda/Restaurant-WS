@@ -7,15 +7,20 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import com.example.restaurantws.data.main.models.products.Product
 import com.example.restaurantws.databinding.ItemProductsBinding
-import com.example.restaurantws.utils.loadDrawable
+import com.example.restaurantws.utils.load
 
-class ProductsAdapter(private var items: MutableList<Product>) :
+class ProductsAdapter(
+    private var items: MutableList<Product>,
+    private val productsAdapterCallback: ProductsAdapterCallback
+) :
     RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
 
     inner class ViewHolder(private val binding: ItemProductsBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(product: Product) = with(binding)
+        fun bind(position: Int) = with(binding)
         {
+            val product = items[position]
+
             productName.text = product.nombre
             productDesc.text = product.descripcion
             "$ ${product.precio}".also { productPrice.text = it }
@@ -28,11 +33,22 @@ class ProductsAdapter(private var items: MutableList<Product>) :
 
             imgRemoveFromCart.apply {
                 isVisible = product.quantity > 0
+                setOnClickListener {
+                    productsAdapterCallback.onRemoveItemFromCart(product, position)
+                }
             }
 
-            imgProduct.loadDrawable(
+
+            imgAddToCart.setOnClickListener {
+                productsAdapterCallback.onAddItemToCart(product, position)
+            }
+            imgProduct.load(
                 product.url_imagen
             )
+
+            root.setOnClickListener {
+                productsAdapterCallback.onClickItem(product)
+            }
         }
     }
 
@@ -43,7 +59,7 @@ class ProductsAdapter(private var items: MutableList<Product>) :
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(items[position])
+        holder.bind(position)
     }
 
     override fun getItemCount(): Int = items.size
@@ -52,6 +68,12 @@ class ProductsAdapter(private var items: MutableList<Product>) :
     fun setItems(newItems: List<Product>) {
         items = newItems.toMutableList()
         notifyDataSetChanged()
+    }
+
+    fun updateItem(item: Product, position: Int) {
+        if(items.isEmpty()) return
+        items[0] = item
+        notifyItemChanged(position)
     }
 
 }

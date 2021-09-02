@@ -17,14 +17,53 @@
     <fragment
         android:id="@+id/productsFragment"
         android:name="com.example.restaurantws.ui.products.ProductsFragment"
-        android:label="Products"
+        android:label="Productos"
         tools:layout="@layout/fragment_products" >
         <argument
             android:name="category"
             app:argType="com.example.restaurantws.data.main.models.categorias.Category" />
+        <action
+            android:id="@+id/action_productsFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+        <argument
+            android:name="title"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/pedidosFragment"
         android:name="com.example.restaurantws.ui.pedidos.PedidosFragment"
-        android:label="PedidosFragment" /><action android:id="@+id/action_global_pedidosFragment" app:destination="@id/pedidosFragment"/>
+        android:label="Pedidos" >
+        <action
+            android:id="@+id/action_pedidosFragment_to_pedidoDetailFragment"
+            app:destination="@id/pedidoDetailFragment" />
+    </fragment><action android:id="@+id/action_global_pedidosFragment" app:destination="@id/pedidosFragment"/>
+     <fragment
+        android:id="@+id/pedidoDetailFragment"
+        android:name="com.example.restaurantws.ui.pedido_detail.PedidoDetailFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_pedido_detail" >
+        <argument
+            android:name="pedido"
+            app:argType="com.example.restaurantws.data.main.models.pedidos.Pedido" />
+        <action
+            android:id="@+id/action_pedidoDetailFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.example.restaurantws.ui.product_detail.ProductDetailFragment"
+        android:label="{title}" >
+        <argument
+            android:name="producto"
+            app:argType="com.example.restaurantws.data.main.models.products.Product" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="isLocalPedido"
+            app:argType="boolean" />
+    </fragment>
 </navigation>

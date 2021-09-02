@@ -21,7 +21,10 @@ public final class ItemPedidosBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView imageView2;
+  public final ImageView imgDeletePedido;
+
+  @NonNull
+  public final ImageView imgSendPedido;
 
   @NonNull
   public final TextView pedidoDesc;
@@ -32,10 +35,12 @@ public final class ItemPedidosBinding implements ViewBinding {
   @NonNull
   public final TextView pedidoTitle;
 
-  private ItemPedidosBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
-      @NonNull TextView pedidoDesc, @NonNull TextView pedidoPrice, @NonNull TextView pedidoTitle) {
+  private ItemPedidosBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imgDeletePedido,
+      @NonNull ImageView imgSendPedido, @NonNull TextView pedidoDesc, @NonNull TextView pedidoPrice,
+      @NonNull TextView pedidoTitle) {
     this.rootView = rootView;
-    this.imageView2 = imageView2;
+    this.imgDeletePedido = imgDeletePedido;
+    this.imgSendPedido = imgSendPedido;
     this.pedidoDesc = pedidoDesc;
     this.pedidoPrice = pedidoPrice;
     this.pedidoTitle = pedidoTitle;
@@ -68,9 +73,15 @@ public final class ItemPedidosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView2;
-      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView2 == null) {
+      id = R.id.imgDeletePedido;
+      ImageView imgDeletePedido = ViewBindings.findChildViewById(rootView, id);
+      if (imgDeletePedido == null) {
+        break missingId;
+      }
+
+      id = R.id.imgSendPedido;
+      ImageView imgSendPedido = ViewBindings.findChildViewById(rootView, id);
+      if (imgSendPedido == null) {
         break missingId;
       }
 
@@ -92,8 +103,8 @@ public final class ItemPedidosBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemPedidosBinding((ConstraintLayout) rootView, imageView2, pedidoDesc,
-          pedidoPrice, pedidoTitle);
+      return new ItemPedidosBinding((ConstraintLayout) rootView, imgDeletePedido, imgSendPedido,
+          pedidoDesc, pedidoPrice, pedidoTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

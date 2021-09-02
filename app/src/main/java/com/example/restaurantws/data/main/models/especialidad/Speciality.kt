@@ -4,5 +4,5 @@ data class Speciality(
     val nombre: String,
     val descripcion: String,
     val precio: Int,
-    val url_foto: Int,
+    val url_foto: String,
 )

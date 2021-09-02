@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.restaurantws.data.main.models.categorias.Category
 import com.example.restaurantws.databinding.ItemCategoriesBinding
-import com.example.restaurantws.utils.loadDrawable
+import com.example.restaurantws.utils.load
 
 class CategoriesAdapter(
     private var items: List<Category>,
@@ -21,7 +21,7 @@ class CategoriesAdapter(
             categoryName.text = category.nombre
             categoryDesc.text = category.descripcion
 
-            imgCategory.loadDrawable(
+            imgCategory.load(
                 category.url_imagen
             )
 

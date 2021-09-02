@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.restaurantws.R;
+import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -19,6 +20,9 @@ import java.lang.String;
 public final class FragmentProductsBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final MaterialCardView cardProducts;
 
   @NonNull
   public final ConstraintLayout frameLayout;
@@ -33,9 +37,11 @@ public final class FragmentProductsBinding implements ViewBinding {
   public final RecyclerView rcViewProducts;
 
   private FragmentProductsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout frameLayout, @NonNull CustomHeaderBinding productsHeader,
-      @NonNull ProgressBar progressBarProduct, @NonNull RecyclerView rcViewProducts) {
+      @NonNull MaterialCardView cardProducts, @NonNull ConstraintLayout frameLayout,
+      @NonNull CustomHeaderBinding productsHeader, @NonNull ProgressBar progressBarProduct,
+      @NonNull RecyclerView rcViewProducts) {
     this.rootView = rootView;
+    this.cardProducts = cardProducts;
     this.frameLayout = frameLayout;
     this.productsHeader = productsHeader;
     this.progressBarProduct = progressBarProduct;
@@ -69,6 +75,12 @@ public final class FragmentProductsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.cardProducts;
+      MaterialCardView cardProducts = ViewBindings.findChildViewById(rootView, id);
+      if (cardProducts == null) {
+        break missingId;
+      }
+
       ConstraintLayout frameLayout = (ConstraintLayout) rootView;
 
       id = R.id.productsHeader;
@@ -90,7 +102,7 @@ public final class FragmentProductsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProductsBinding((ConstraintLayout) rootView, frameLayout,
+      return new FragmentProductsBinding((ConstraintLayout) rootView, cardProducts, frameLayout,
           binding_productsHeader, progressBarProduct, rcViewProducts);
     }
     String missingId = rootView.getResources().getResourceName(id);

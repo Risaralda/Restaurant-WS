@@ -1,17 +1,16 @@
 package com.example.restaurantws.ui.login
 
+import android.util.Patterns
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import android.util.Patterns
 import androidx.lifecycle.viewModelScope
-import com.example.restaurantws.data.auth.AuthRepository
-
 import com.example.restaurantws.R
 import com.example.restaurantws.core.CurrentUser
 import com.example.restaurantws.core.Resource
+import com.example.restaurantws.data.auth.AuthRepository
 import com.example.restaurantws.data.auth.models.LoginRequest
-import com.example.restaurantws.data.auth.models.User
+import com.example.restaurantws.data.auth.models.LoginResponse
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
@@ -23,7 +22,7 @@ class LoginViewModel(private val authRepository: AuthRepository) : ViewModel() {
     private val _loginResult = MutableStateFlow<Resource<LoginRequest>>(Resource.Empty())
     val loginResult: StateFlow<Resource<LoginRequest>> = _loginResult
 
-    lateinit var user: User
+    lateinit var loggedInUser: LoginResponse
 
     fun login(loginRequest: LoginRequest) {
         if (_loginResult.value is Resource.Loading) return
@@ -34,16 +33,18 @@ class LoginViewModel(private val authRepository: AuthRepository) : ViewModel() {
                 .catch { _loginResult.value = Resource.Error(it) }
                 .collect {
                     setCurrentUserData(it)
-                    user = it
+                    loggedInUser = it
                     _loginResult.value = Resource.Success(loginRequest)
                 }
         }
     }
 
-    private fun setCurrentUserData(user: User) {
+    private fun setCurrentUserData(data: LoginResponse) {
         CurrentUser.apply {
-            idCliente = user.id ?: 0
-            nombre = user.nombre
+            idCliente = data.idCliente
+            nombre = data.nombre
+            token = data.token
+
         }
     }
 

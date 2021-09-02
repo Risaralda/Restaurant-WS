@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -32,7 +33,7 @@ public final class BodyLoginBinding implements ViewBinding {
   public final CheckBox checkBoxRememberMe;
 
   @NonNull
-  public final ConstraintLayout container;
+  public final ConstraintLayout imgBack;
 
   @NonNull
   public final EditText loginEmail;
@@ -43,18 +44,23 @@ public final class BodyLoginBinding implements ViewBinding {
   @NonNull
   public final ProgressBar progressBarLogin;
 
+  @NonNull
+  public final TextView textView4;
+
   private BodyLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnGoToSignUp,
       @NonNull Button btnLogin, @NonNull CheckBox checkBoxRememberMe,
-      @NonNull ConstraintLayout container, @NonNull EditText loginEmail,
-      @NonNull EditText loginPassword, @NonNull ProgressBar progressBarLogin) {
+      @NonNull ConstraintLayout imgBack, @NonNull EditText loginEmail,
+      @NonNull EditText loginPassword, @NonNull ProgressBar progressBarLogin,
+      @NonNull TextView textView4) {
     this.rootView = rootView;
     this.btnGoToSignUp = btnGoToSignUp;
     this.btnLogin = btnLogin;
     this.checkBoxRememberMe = checkBoxRememberMe;
-    this.container = container;
+    this.imgBack = imgBack;
     this.loginEmail = loginEmail;
     this.loginPassword = loginPassword;
     this.progressBarLogin = progressBarLogin;
+    this.textView4 = textView4;
   }
 
   @Override
@@ -102,7 +108,7 @@ public final class BodyLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      ConstraintLayout container = (ConstraintLayout) rootView;
+      ConstraintLayout imgBack = (ConstraintLayout) rootView;
 
       id = R.id.loginEmail;
       EditText loginEmail = ViewBindings.findChildViewById(rootView, id);
@@ -122,8 +128,14 @@ public final class BodyLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView4;
+      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
+      if (textView4 == null) {
+        break missingId;
+      }
+
       return new BodyLoginBinding((ConstraintLayout) rootView, btnGoToSignUp, btnLogin,
-          checkBoxRememberMe, container, loginEmail, loginPassword, progressBarLogin);
+          checkBoxRememberMe, imgBack, loginEmail, loginPassword, progressBarLogin, textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

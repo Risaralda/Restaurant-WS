@@ -9,11 +9,13 @@ import com.example.restaurantws.`data`.main.models.categorias.Category
 import java.io.Serializable
 import java.lang.UnsupportedOperationException
 import kotlin.Int
+import kotlin.String
 import kotlin.Suppress
 
 public class CategoriesFragmentDirections private constructor() {
   private data class ActionFirstFragmentToProductsFragment(
-    public val category: Category
+    public val category: Category,
+    public val title: String
   ) : NavDirections {
     public override fun getActionId(): Int = R.id.action_FirstFragment_to_productsFragment
 
@@ -28,13 +30,14 @@ public class CategoriesFragmentDirections private constructor() {
         throw UnsupportedOperationException(Category::class.java.name +
             " must implement Parcelable or Serializable or must be an Enum.")
       }
+      result.putString("title", this.title)
       return result
     }
   }
 
   public companion object {
-    public fun actionFirstFragmentToProductsFragment(category: Category): NavDirections =
-        ActionFirstFragmentToProductsFragment(category)
+    public fun actionFirstFragmentToProductsFragment(category: Category, title: String):
+        NavDirections = ActionFirstFragmentToProductsFragment(category, title)
 
     public fun actionGlobalPedidosFragment(): NavDirections =
         NavGraphDirections.actionGlobalPedidosFragment()

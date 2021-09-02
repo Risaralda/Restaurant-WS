@@ -9,9 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.room.Room
 import com.example.restaurantws.core.Resource
-import com.example.restaurantws.core.database.RestaurantDB
 import com.example.restaurantws.databinding.FragmentCategoriesBinding
 import com.example.restaurantws.utils.toast
 import kotlinx.coroutines.flow.collect
@@ -47,7 +45,8 @@ class CategoriesFragment : Fragment() {
 
     private fun setUpRcView() {
         rcViewAdapter = CategoriesAdapter(listOf()) {
-            val action = CategoriesFragmentDirections.actionFirstFragmentToProductsFragment(it)
+            val action =
+                CategoriesFragmentDirections.actionFirstFragmentToProductsFragment(it, it.nombre)
             findNavController().navigate(action)
         }
 
@@ -65,13 +64,16 @@ class CategoriesFragment : Fragment() {
                     }
                     is Resource.Error -> with(binding) {
                         progressBarCategory.isVisible = false
+                        categoriesCard.isVisible = false
                         toast(it.error?.message)
                     }
                     is Resource.Loading -> with(binding) {
                         progressBarCategory.isVisible = true
+                        categoriesCard.isVisible = false
                     }
                     is Resource.Success -> {
                         binding.progressBarCategory.isVisible = false
+                        binding.categoriesCard.isVisible = true
                         rcViewAdapter.setItems(it.data ?: listOf())
                     }
                 }

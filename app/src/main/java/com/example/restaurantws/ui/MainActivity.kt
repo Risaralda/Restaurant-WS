@@ -13,14 +13,17 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.restaurantws.R
 import com.example.restaurantws.databinding.ActivityMainBinding
 import com.example.restaurantws.ui.login.LoginActivity
+import com.example.restaurantws.ui.splash.MainViewModel
 import com.example.restaurantws.utils.goToActivity
 import org.koin.android.ext.android.inject
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
     private val prefs: SharedPreferences by inject()
+    private val mainViewModel: MainViewModel by viewModel()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
+
+        mainViewModel.loadPedido()
 
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph)
@@ -48,12 +53,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle item selection
         return when (item.itemId) {
             R.id.logout -> {
                 with(prefs.edit())
                 {
-                    putBoolean(getString(R.string.is_saved_current_user), false)
+
+                    remove(getString(R.string.is_saved_current_user))
                     commit()
                 }
                 goToActivity<LoginActivity>()
@@ -62,7 +67,7 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.pedidos -> {
                 val navController = findNavController(R.id.nav_host_fragment_content_main)
-//            navController.navigate(MainAc)
+                navController.navigate(R.id.action_global_pedidosFragment)
                 true
             }
             else -> super.onOptionsItemSelected(item)

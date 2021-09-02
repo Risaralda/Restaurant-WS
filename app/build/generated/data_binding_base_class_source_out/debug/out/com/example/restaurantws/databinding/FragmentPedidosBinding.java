@@ -21,14 +21,19 @@ public final class FragmentPedidosBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final CustomHeaderBinding pedidosHeader;
+
+  @NonNull
   public final ProgressBar progressBarPedidos;
 
   @NonNull
   public final RecyclerView rcViewPedidos;
 
   private FragmentPedidosBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ProgressBar progressBarPedidos, @NonNull RecyclerView rcViewPedidos) {
+      @NonNull CustomHeaderBinding pedidosHeader, @NonNull ProgressBar progressBarPedidos,
+      @NonNull RecyclerView rcViewPedidos) {
     this.rootView = rootView;
+    this.pedidosHeader = pedidosHeader;
     this.progressBarPedidos = progressBarPedidos;
     this.rcViewPedidos = rcViewPedidos;
   }
@@ -60,6 +65,13 @@ public final class FragmentPedidosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.pedidosHeader;
+      View pedidosHeader = ViewBindings.findChildViewById(rootView, id);
+      if (pedidosHeader == null) {
+        break missingId;
+      }
+      CustomHeaderBinding binding_pedidosHeader = CustomHeaderBinding.bind(pedidosHeader);
+
       id = R.id.progressBarPedidos;
       ProgressBar progressBarPedidos = ViewBindings.findChildViewById(rootView, id);
       if (progressBarPedidos == null) {
@@ -72,8 +84,8 @@ public final class FragmentPedidosBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentPedidosBinding((ConstraintLayout) rootView, progressBarPedidos,
-          rcViewPedidos);
+      return new FragmentPedidosBinding((ConstraintLayout) rootView, binding_pedidosHeader,
+          progressBarPedidos, rcViewPedidos);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

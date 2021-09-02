@@ -2,53 +2,86 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gris"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/pedidoTitle"
-        android:layout_width="0dp"
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="8dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="5dp"
-        tools:text="Pedido #1" />
-
-    <TextView
-        android:id="@+id/pedidoDesc"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="@+id/pedidoTitle"
-        app:layout_constraintTop_toBottomOf="@+id/pedidoTitle"
-        tools:text="Realizado el 20/01/2020 por Juan" />
-
-    <TextView
-        android:id="@+id/pedidoPrice"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:textColor="@color/primaryVariantColor"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/pedidoDesc"
-        app:layout_constraintStart_toStartOf="@+id/pedidoDesc"
-        app:layout_constraintTop_toBottomOf="@+id/pedidoDesc"
-        tools:text="Total: 300" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:backgroundTint="@color/primaryColor"
-        android:tint="@color/primaryColor"
-        app:layout_constraintBottom_toBottomOf="@+id/pedidoTitle"
+        android:layout_margin="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/pedidoTitle"
-        app:srcCompat="@drawable/ic_baseline_send_24" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/pedidoTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toStartOf="@+id/imgDeletePedido"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Pedido #1" />
+
+            <TextView
+                android:id="@+id/pedidoDesc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                app:layout_constraintEnd_toEndOf="@+id/pedidoTitle"
+                app:layout_constraintStart_toStartOf="@+id/pedidoTitle"
+                app:layout_constraintTop_toBottomOf="@+id/pedidoTitle"
+                tools:text="Realizado el 20/01/2020 por Juan" />
+
+            <TextView
+                android:id="@+id/pedidoPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/primaryVariantColor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/pedidoDesc"
+                app:layout_constraintStart_toStartOf="@+id/pedidoDesc"
+                app:layout_constraintTop_toBottomOf="@+id/pedidoDesc"
+                tools:text="Total: 300" />
+
+            <ImageView
+                android:id="@+id/imgSendPedido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/primaryColor"
+                app:layout_constraintBottom_toBottomOf="@+id/imgDeletePedido"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imgDeletePedido"
+                app:layout_constraintVertical_bias="0.612"
+                app:srcCompat="@drawable/ic_baseline_send_24"
+                app:tint="@color/primaryColor" />
+
+            <ImageView
+                android:id="@+id/imgDeletePedido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:backgroundTint="@color/primaryColor"
+                app:layout_constraintBottom_toBottomOf="@+id/pedidoPrice"
+                app:layout_constraintEnd_toStartOf="@+id/imgSendPedido"
+                app:layout_constraintTop_toTopOf="@+id/pedidoTitle"
+                app:srcCompat="@drawable/ic_baseline_delete_forever_24"
+                app:tint="?attr/colorError" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,11 +12,18 @@ class PedidosViewModel(private val mainRepository: MainRepository) : ViewModel()
     private val _pedidosResult = MutableStateFlow<Resource<List<Pedido>>>(Resource.Empty())
     val signUpResult: StateFlow<Resource<List<Pedido>>> = _pedidosResult
 
-    fun loadProducts() {
+    fun loadPedidos() {
+        if(_pedidosResult.value is Resource.Success) return
+
         viewModelScope.launch {
-            mainRepository.getPedidos()
+            mainRepository.getLocalPedidos()
                 .onStart { _pedidosResult.value = Resource.Loading() }
                 .catch { _pedidosResult.value = Resource.Error(it) }
+                .combine(mainRepository.getPedidos()) { a, b ->
+                    val finalList = a.toMutableList()
+                    finalList.addAll(b)
+                    finalList
+                }
                 .collect { _pedidosResult.value = Resource.Success(it) }
         }
     }
