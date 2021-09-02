@@ -67,6 +67,10 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.pedidos -> {
                 val navController = findNavController(R.id.nav_host_fragment_content_main)
+
+                if(navController.currentDestination?.id == R.id.pedidosFragment){
+                    return true
+                }
                 navController.navigate(R.id.action_global_pedidosFragment)
                 true
             }
